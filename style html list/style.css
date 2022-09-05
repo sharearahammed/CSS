@@ -1,0 +1,9 @@
+.course-list{
+	background-color:gray;	
+	padding:20px;
+	color:white;
+	
+}
+.course-list ul{
+	list-style-type:circle;
+}

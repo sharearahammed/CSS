@@ -1,0 +1,39 @@
+img{
+	max-width:200px;
+	height:auto;
+	border: 5px solid orange;
+	display:block;
+	margin:0 auto;
+	margin-top:100px;
+	border-radius:50%;
+	
+} 
+img:hover{
+	animation-name:img-anim;
+	animation-duration:3s;
+	animation-fill-mode:forwards;
+}
+@keyframes img-anim{
+	
+	0%{
+		border-color:red;
+	}
+	25%{
+		border-color:blue;
+	}
+	75%{
+		border-color:green;
+	}
+	100%{
+		border-color:yellow;
+	}
+	
+	/*from{
+		border-color:ornge;
+		max-width:200px;
+	}
+	to{
+		max-width:300px;
+		border-color:red;
+	}*/
+}

@@ -1,0 +1,15 @@
+div{
+	height:250px;
+	width:250px;
+}
+#div1{
+	background:black;
+	position:absolute;
+	z-index:1;
+}
+#div2{
+	background:red;
+	position:absolute;
+	left:150px;
+	top:150px;
+}

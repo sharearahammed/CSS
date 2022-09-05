@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+
+<head> 
+      <meta charset="UTF-8">
+      <meta name="viewpoint" content="width=device-width,initial-scale=1.0"/>
+      <title>Psudo-class and psudo-element</title> 
+      <style>
+             input{
+                   padding:5px;
+                   font-size:1rem;
+                   width:150;
+                   }
+             input:hover{ 
+                         background-color:aqua;
+                         }
+             a.my-link1:hover{
+                     color:hotpink;
+                     }
+             a.my-link2:hover{
+                     color:green;
+                     }
+             p.first1:hover{
+                      color:red;
+                      
+                      }
+             
+             p.first2::first-letter{
+                      color:green;
+                      font-size:3rem;
+                      }
+             p.first3::first-line{
+                      color:green;
+                      font-size:3rem;
+                      }
+             p.first4:before{
+                      content:">";
+                      color:red;
+                      }
+      </style>
+</head>
+
+<body> 
+      <input type="text" placeholder="Enter your name"><br/>
+      <a class="my-link1" href="#">Tutorial<a/>
+      <a class="my-link2" href="#">Home<a/>
+      <p class="first1">Donec at est vel justo dapibus facilisis. Nullam at vulputate nunc. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
+      <p class="first2">Donec at est vel justo dapibus facilisis. Nullam at vulputate nunc. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
+</body>
+      <p class="first3">Donec at est vel justo dapibus facilisis. Nullam at vulputate nunc. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
+      <p class="first4">Donec at est vel justo dapibus facilisis. Nullam at vulputate nunc. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
+
+
+
+
+
+
+
+
+</html>

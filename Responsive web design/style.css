@@ -1,0 +1,19 @@
+*{
+	box-sizing:border-box;
+}
+@media screen and (max-width:900px){
+	body{
+		background-color:brown;
+	}
+	h1{
+		color:white;
+	}
+	h2{
+		display:none;
+	}
+}
+@media screen and (min-width:1000px){
+	body{
+		background-color:cadetblue;
+	}
+}

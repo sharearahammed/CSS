@@ -1,0 +1,17 @@
+.main{
+	background-color:orange;
+	width:300px;
+	height:300px;
+	
+	margin:0 auto;
+	text-align:center;
+	color:white;
+	transition-property:font-size width height;
+	transition-duration:2s;
+}
+.main:hover{
+	font-size:1.5rem;
+	width:400px;
+	height:400px;
+	transform:rotate(360deg);
+}

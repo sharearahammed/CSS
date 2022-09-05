@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+      <meta charset="UTF-8">
+      <meta name="viewpoint" content="width=device-width , initial-scale=1.0"/>
+      <title>PART2</title>
+
+      <style>
+                          p:nth-child(even){
+                     background-color:black;
+                     color:white;
+                     }
+             p::first-line{
+                             color:red;
+                             font-size:2rem;
+                             }
+             ::selection{
+                         color:hotpink;
+                         background-color:black;
+                         }
+             li:nth-child(odd){
+                              background-color:black;
+                              color:aqua;
+                           }
+             .demo::before, .demo::after{
+                          content: '.';
+                          width: 100%;
+                          heigth: 20px;
+                          background-color: blue;
+                          display: inline-block;
+                          }
+      </style>
+</head>
+
+<body>
+      <h1>List:</h1>
+      <ul>
+          <li>Home1</li>
+          <li>Home2</li>
+          <li>Home3</li>
+          <li>Home4</li>
+          <li>Home5</li> 
+      </ul>   
+
+      <div class="demo">
+      <p>Donec at est vel justo dapibus facilisis. Nullam at vulputate nunc.Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
+      <p>Donec at est vel justo dapibus facilisis. Nullam at vulputate nunc.Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
+      <p>Donec at est vel justo dapibus facilisis. Nullam at vulputate nunc.Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
+      <p>Donec at est vel justo dapibus facilisis. Nullam at vulputate nunc.Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
+      </div>
+</body>
+
+
+
+
+
+
+</html>

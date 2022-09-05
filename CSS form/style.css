@@ -1,0 +1,30 @@
+input{
+	margin:20px;
+	border:2px solid salmon;
+	border-radius:5px;
+}
+#search{
+	background-image:url("image/search.png");
+} 
+textarea{
+	resize:none;
+	width:50%; 
+	padding:20px;
+	border:2px solid gray;
+	border-radius:10px;
+	margin:20px;
+}
+.button{
+	width:100px;
+	border:none;
+	background-color:indianred;
+	color:whitesmoke;
+	padding:10px;
+	cursor:pointer;
+}
+.select>select{
+	width:40%;
+	padding:20px;
+	background-color:tomato;
+	border-radius:10px;
+}
